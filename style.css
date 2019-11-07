@@ -1,0 +1,11 @@
+body{
+    background:darkred;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:  Bodoni MT,Helvetica, Arial, sans-serif;
+}
+ul{list-style: none;}
