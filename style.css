@@ -52,6 +52,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 4px 6px 0px rgba(0,0,0,0.75);
 }
 h1{
     font-size: 30px;
@@ -72,7 +73,7 @@ p{
     transition:  all 0,4s ease;
     margin-top: 1rem;
     display:inline-block;
-    
+
 }
 
 .button:hover{
@@ -81,6 +82,41 @@ p{
     border-color: #fff;
 
 }
+.card{
+    text-align: center;
+    box-shadow: 10px 4px 6px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    width:75%;
+    overflow:hidden;
+}
+#rezepte{
+    text-align: center;
+}
+.card p a{
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    }
+
+.card img{
+    width: 100%;
+    }
+.card h3 a{
+    color: black;
+    text-decoration: none;
+    }
+.button-ei{
+    color: #fff;
+    background-color: #374a67;
+    border-color: #fff;
+    }
+    .button.button-ei:hover{
+        color: #374a67;
+        background-color: #fff;
+        border-color: #374a67;
+    }
+
+
 @media (min-width: 1024px) {
     nav {
         display: block;
@@ -102,4 +138,6 @@ p{
         padding-right: 5%;
 
     }
-}
+
+
+        }
