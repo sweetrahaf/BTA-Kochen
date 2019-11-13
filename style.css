@@ -87,8 +87,8 @@ p{
     text-align: center;
     box-shadow: 10px 4px 6px 0px rgba(0,0,0,0.75);
     border-radius: 5px;
-    width:75%;
     overflow:hidden;
+    margin: 1rem
 }
 #rezepte{
     text-align: center;
@@ -97,6 +97,10 @@ p{
     font-size: 18px;
     color: gray;
     text-decoration: none;
+    padding:1rem;
+    display: inline-block;
+
+
     }
 
 .card img{
@@ -106,16 +110,40 @@ p{
     color: black;
     text-decoration: none;
     }
-.button-ei{
+.button.button-rezepte{
     color: #fff;
     background-color: #374a67;
     border-color: #fff;
+    margin: 1rem;
+    display: block;
+
     }
-    .button.button-ei:hover{
+    .button.button-rezepte:hover{
         color: #374a67;
         background-color: #fff;
         border-color: #374a67;
+        align-items:flex-end;
     }
+.end {
+    background: #04122B;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+    border-radius: 5px;
+}
+.end h2 {
+    font-size: 1rem:
+}
+
+#abo {
+    display: inline-block;
+}
+.email{
+    border-radius: 5px;
+    padding:1rem;
+}
+
 
 
 @media (min-width: 1024px) {
@@ -123,7 +151,7 @@ p{
         display: block;
     }
 
-    button {
+    nav button {
         display: none;
     }
 
@@ -139,6 +167,17 @@ p{
         padding-right: 5%;
 
     }
-
-
+    .row{
+        display: flex;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card p{
+        align-content: stretch;
+        align-items: stretch;
+        flex: 1 1 auto;
+    }
         }

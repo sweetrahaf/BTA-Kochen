@@ -10,6 +10,7 @@
             <meta name="description" content="Leckere und gesunde rezepte für webworker. Mmmmmmhhh">
             <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
             <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="fonts/fonts.css">
     </head>
     <body>
             <header>
@@ -49,25 +50,138 @@
                     <h2> Die neuesten Rezepte</h2>
 
                     <div class="row">
+
+
                         <article class="card">
                             <a href="#">
                                 <img src="img/toast-mit-ei.jpg" alt="ei">
                             </a>
-                                <h3 id="Ei">
+                                <h3 >
                                     <a href="#">Eier im Toastbrot mit Rosmarin - Butter</a>
                                 </h3>
-                                <p>
-                                    <a href="#">
-                                        feines und schnelles Rezept nicht nur für Ostern
-                                    </a>
-                                </p>
-                                <a href="#"class= "button button-ei"> zum Rezepte</a>
+                                    <p>
+                                        <a href="#">
+                                            feines und schnelles Rezept nicht nur für Ostern
+                                        </a>
+                                    </p>
 
-                            </a>
+                                    <a href="#"class= "button button-rezepte"> zum Rezepte</a>
+
+                            </article>
+
+
+                            <article class="card">
+                                <a href="#">
+                                    <img src="img/burger.jpg" alt="Burger">
+                                </a>
+                                    <h3 >
+                                        <a href="#">Vegetarische Burger</a>
+                                    </h3>
+                                        <p>
+                                            <a href="#">
+                                                Die einfachsten Veggie-Burger der Welt
+                                            </a>
+                                        </p>
+
+                                        <a href="#"class= "button button-rezepte"> zum Rezepte</a>
+
+                                </article>
+
+
+                                <article class="card">
+                                    <a href="#">
+                                        <img  src="img/Kuerbissuppe.jpg" alt="Kürbissuppe">
+                                    </a>
+                                        <h3 >
+                                            <a href="#">RAHAF's Kürbissuppe</a>
+                                        </h3>
+                                            <p>
+                                            <a href="#">
+                                                Kürbissuppe mit Ingwer und Kokosmilch
+                                            </a>
+                                            </p>
+                                            <a href="#"class= "button button-rezepte"> zum Rezepte</a>
+
+                                    </article>
+
+
+                                    <article class="card">
+                                        <a href="#">
+                                            <img src="img/pancakes.jpg" alt="pancakes">
+                                        </a>
+                                            <h3 >
+                                                <a href="#">Fluffy Buttermilk Pancakes</a>
+                                            </h3>
+                                                <p>
+                                                    <a href="#">
+                                                        Der perfekte Pfannkuchen - gelingt einfach immer
+                                                    </a>
+                                                </p>
+                                                <a href="#"class= "button button-rezepte"> zum Rezepte</a>
+
+                                        </article>
             </main>
+
+            <aside id="newsletter">
+                <div class="end">
+                    <h2>
+                        Kein Rezept mehr verpasseen <br>hol dir unseren Newsletter
+                    </h2>
+                    <form class="mail" action="" method="get">
+                        <input type="email" name="email" value=""placeholder="Dein EMail Addresse" class="email">
+
+                        <!--
+                        die Alternative für Formulare
+                         <input type="submit" name="" abonnieren=""> -->
+
+                        <button type="submit" name="abschicken" id="abo" class="button">abonnieren</button>
+
+                    </form>
+
+                </div>
+
+            </aside>
+
+            <footer id="footer">
+                <nav id="legal">
+                    <ul>
+                        <li>
+                            <a href="#"> Impressum</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Datenschutz</a>
+                        </li>
+                        <li>
+                            <a href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav id="social">
+                    <ul>
+                        <li class="icon-facebook">
+                            <a href=" https://www.facebook.com" target="_blank">facebook</a>
+                        </li>
+                        <li class="icon-instagram">
+                            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+
+                        </li>
+                        <li class="icon-youtube">
+                            <a href="https://www.youtube.com" target="_blank">youtube</a>
+
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </footer>
+
             <script src="js/menu.js">
 
+
             </script>
+
 
     </body>
 </html>
